@@ -9,7 +9,7 @@ var RNNotificationsComponent = require( './component' );
 var AppState = RNNotificationsComponent.state;
 var RNNotifications = RNNotificationsComponent.component;
 
-var PlatformOS = require('react-native').PlatformOS;
+var PlatformOS = require('react-native').Platform.OS;
 
 var Notifications = {
   handler: RNNotifications,
